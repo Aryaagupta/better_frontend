@@ -1,0 +1,74 @@
+.create-task {
+  margin-bottom: 32px;
+}
+
+.create-task > .btn-primary {
+  font-size: 16px;
+  padding: 14px 28px;
+  background: linear-gradient(135deg, #0E7C5A 0%, #39D98A 100%);
+  color: white;
+  border-radius: 12px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.task-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 28px;
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  border-radius: 16px;
+  border: 2px solid #dee2e6;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+  animation: slideDown 0.3s ease;
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.form-actions {
+  display: flex;
+  gap: 12px;
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, #0E7C5A 0%, #39D98A 100%);
+  color: white;
+}
+
+.btn-primary:hover {
+  background: linear-gradient(135deg, #0a5f44 0%, #2dbf74 100%);
+}
+
+.btn-secondary {
+  background: linear-gradient(135deg, #6c757d 0%, #495057 100%);
+  color: white;
+}
+
+.btn-secondary:hover {
+  background: linear-gradient(135deg, #5a6268 0%, #343a40 100%);
+}
+
+.btn-danger {
+  background: linear-gradient(135deg, #f43f5e 0%, #dc2626 100%);
+  color: white;
+}
+
+.btn-danger:hover {
+  background: linear-gradient(135deg, #e11d48 0%, #b91c1c 100%);
+}
+
+.btn-small {
+  padding: 8px 16px;
+  font-size: 13px;
+}

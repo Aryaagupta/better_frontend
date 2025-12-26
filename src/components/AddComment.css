@@ -1,0 +1,14 @@
+.add-comment-form {
+  background: linear-gradient(135deg, #ffffff 0%, #f9fafb 100%);
+  padding: 20px;
+  border-radius: 12px;
+  border: 2px solid #e5e7eb;
+  margin-bottom: 16px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+  animation: slideDown 0.3s ease;
+}
+
+.add-comment-form textarea {
+  margin-bottom: 12px;
+  min-height: 100px;
+}
