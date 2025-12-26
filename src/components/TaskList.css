@@ -1,0 +1,26 @@
+.task-list {
+  margin-top: 32px;
+}
+
+.task-list h2 {
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 24px;
+  color: #1f2937;
+  background: linear-gradient(135deg, #0E7C5A 0%, #39D98A 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.empty-state {
+  text-align: center;
+  padding: 80px 40px;
+  color: #9ca3af;
+  font-size: 18px;
+  background: linear-gradient(135deg, #f9fafb 0%, #f3f4f6 100%);
+  border-radius: 16px;
+  border: 2px dashed #d1d5db;
+  margin-top: 20px;
+  font-weight: 500;
+}

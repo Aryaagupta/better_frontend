@@ -1,0 +1,42 @@
+.comment-section {
+  margin-top: 24px;
+  padding-top: 24px;
+  border-top: 2px solid #e5e7eb;
+  background: linear-gradient(135deg, #fafbfc 0%, #f5f6f7 100%);
+  border-radius: 12px;
+  padding: 24px;
+  margin-left: -24px;
+  margin-right: -24px;
+  margin-bottom: -24px;
+}
+
+.comment-header {
+  margin-bottom: 20px;
+}
+
+.comment-header h4 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #374151;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.comments-list {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-top: 16px;
+}
+
+.no-comments {
+  text-align: center;
+  padding: 32px;
+  color: #9ca3af;
+  font-size: 15px;
+  background-color: white;
+  border-radius: 10px;
+  border: 2px dashed #d1d5db;
+  font-weight: 500;
+}
